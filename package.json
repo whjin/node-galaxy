@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"dev": "tsx watch src/app.ts",
+		"build": "tsc",
+		"start": "node dist/app.js"
+	},
+	"devDependencies": {
+		"@types/node": "^26.1.0",
+		"tsx": "^4.23.0",
+		"typescript": "^6.0.3"
+	},
+	"dependencies": {
+		"express": "^5.2.1"
+	}
+}
