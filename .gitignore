@@ -1,6 +1,9 @@
-*/node_modules
-*/pnpm-lock.yaml
 .git
 node_modules    
 pnpm-lock.yaml  
 pnpm-workspace.yaml
+dist
+database.sqlite
+.env
+*.log
+.DS_Store
